@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li{
+    flex: 1;
+}
+
+nav a{
+    display: block;
+    background-color: #00cc99;
+    border: solid .1rem;
+    padding: .5rem;
+}
