@@ -15,7 +15,16 @@ nav li{
 
 nav a{
     display: block;
-    background-color: #00cc99;
+    background-color: #2aabd2;
     border: solid .1rem;
     padding: .5rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+nav a:hover{
+    background-color: #00b3ee;
+    margin-left: .2rem;
+    margin-right: .2rem;
 }
