@@ -5,14 +5,39 @@
 
 #liveMatchesLink a{
     display: block;
-    border: solid .1rem grey;
-    border-radius: .3rem;
+    border: solid .1rem black;
+    border-radius: .5rem;
     padding: 1rem;
     text-decoration: none;
     color: black;
 }
 
 #liveMatchesLink a:hover{
-    border: solid .1rem grey;
-    border-radius: .5rem;
+    border: solid .1rem black;
+    border-radius: .3rem;
 }
+
+#playerStats{
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border: solid .1rem black;
+    border-radius: .5rem;
+    width: 15%;
+}
+
+#playerStats img {
+    width: 80%;
+}
+
+#playerStats a{
+    text-decoration: none;
+    padding: .3rem;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+#playerName{
+    text-decoration: underline;
+}
+
